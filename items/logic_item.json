@@ -1,0 +1,184 @@
+[
+    {
+        "name": "Bubbleflower (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "bubbleflower"
+    },
+    {
+        "name": "Drillmushroom (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "drillmushroom"
+    },
+    {
+        "name": "Rbutton (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "rbutton"
+    },
+    {
+        "name": "Up (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "up"
+    },
+    {
+        "name": "Wondereffect Airswim (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-airswim"
+    },
+    {
+        "name": "Wondereffect Balloon (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-balloon"
+    },
+    {
+        "name": "Wondereffect Bowsersniper (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-bowsersniper"
+    },
+    {
+        "name": "Wondereffect Environment (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-environment"
+    },
+    {
+        "name": "Wondereffect Goomba (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-goomba"
+    },
+    {
+        "name": "Wondereffect Hoppycat (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-hoppycat"
+    },
+    {
+        "name": "Wondereffect Metalcap (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-metalcap"
+    },
+    {
+        "name": "Wondereffect Musical (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-musical"
+    },
+    {
+        "name": "Wondereffect Puffylift (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-puffylift"
+    },
+    {
+        "name": "Wondereffect Quiz (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-quiz"
+    },
+    {
+        "name": "Wondereffect Shadowclone (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-shadowclone"
+    },
+    {
+        "name": "Wondereffect Skydive (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-skydive"
+    },
+    {
+        "name": "Wondereffect Spikeball (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-spikeball"
+    },
+    {
+        "name": "Wondereffect Starrain (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-starrain"
+    },
+    {
+        "name": "Wondereffect Stretch (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-stretch"
+    },
+    {
+        "name": "Wondereffect Timemodifier (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-timemodifier"
+    },
+    {
+        "name": "Wondereffect Tokens (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-tokens"
+    },
+    {
+        "name": "Wondereffect Wallwalking (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-wallwalking"
+    },
+    {
+        "name": "Wondereffect Wubba (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wondereffect-wubba"
+    },
+    {
+        "name": "Wonderflower (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "wonderflower"
+    },
+    {
+        "name": "Ybutton (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "ybutton"
+    },
+    {
+        "name": "Zlbutton Down (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "zlbutton/down"
+    }
+]

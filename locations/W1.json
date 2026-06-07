@@ -7,36 +7,42 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804500"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804501"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
                         "item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804502"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804503"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804504"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804505"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -55,42 +61,49 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804506"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Secret Exit",
+                        "access_rules": ["$smbw_loc|14887804507"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804508"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
                         "item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804509"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804510"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804511"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804512"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -109,36 +122,42 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804513"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804514"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
                         "item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804515"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804516"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804517"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804518"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -157,6 +176,7 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804519"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
@@ -175,42 +195,49 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804520"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Secret Exit",
+                        "access_rules": ["$smbw_loc|14887804521"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804522"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
                         "item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804523"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804524"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804525"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804526"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -229,36 +256,42 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804527"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804528"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
                         "item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804529"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804530"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804531"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804532"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -277,36 +310,42 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804533"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804534"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
                         "item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804535"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804536"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804537"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804538"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -325,30 +364,35 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804539"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804540"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804541"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804542"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804543"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -367,6 +411,7 @@
                 "sections":[
                     {
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804544"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
 						"item_count": 1,
@@ -385,6 +430,7 @@
                 "sections":[
                     {
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804545"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
 						"item_count": 1,
@@ -403,6 +449,7 @@
                 "sections":[
                     {
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804546"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
 						"item_count": 1,
@@ -421,6 +468,7 @@
                 "sections":[
                     {
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804547"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
 						"item_count": 1,
@@ -439,6 +487,7 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804548"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
@@ -457,36 +506,42 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804549"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804550"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
                         "item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804551"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804552"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804553"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804554"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -505,36 +560,42 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804555"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804556"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
                         "item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804557"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804558"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804559"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804560"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -553,42 +614,49 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804561"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Secret Exit",
+                        "access_rules": ["$smbw_loc|14887804562"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804563"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",
                         "item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804564"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804565"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804566"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804567"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -607,30 +675,35 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804568"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804569"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804570"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804571"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804572"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -649,24 +722,28 @@
                 "sections":[
                     {
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804573"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804574"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804575"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804576"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -685,36 +762,42 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804577"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804578"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804579"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804580"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804581"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804582"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -733,36 +816,42 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804583"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804584"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804585"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804586"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804587"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804588"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -781,30 +870,35 @@
                 "sections":[
                     {
                         "name": "Normal Exit",
+                        "access_rules": ["$smbw_loc|14887804589"],
 						"chest_unopened_img": "images/various/Poplingray.png",
 						"chest_opened_img": "images/various/Poplin.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Top of Flag",
+                        "access_rules": ["$smbw_loc|14887804590"],
 						"chest_unopened_img": "images/various/flagpolegray.png",
 						"chest_opened_img": "images/various/flagpole.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804591"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804592"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804593"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
@@ -823,30 +917,35 @@
                 "sections":[
                     {
                         "name": "Royal Seed",
+                        "access_rules": ["$smbw_loc|14887804600"],
 						"chest_unopened_img": "images/seeds/royalgray.png",
 						"chest_opened_img": "images/seeds/prproyal.png",
 						"item_count": 1,
                     },
 					{
                         "name": "Wonder Seed",
+                        "access_rules": ["$smbw_loc|14887804601"],
 						"chest_unopened_img": "images/seeds/seedgray.png",
 						"chest_opened_img": "images/seeds/prpseed.png",						
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #1",
+                        "access_rules": ["$smbw_loc|14887804602"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",			
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #2",
+                        "access_rules": ["$smbw_loc|14887804603"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,
                     },
 					{
                         "name": "10 Coin #3",
+                        "access_rules": ["$smbw_loc|14887804604"],
 						"chest_unopened_img": "images/various/10Coingray.png",
 						"chest_opened_img": "images/various/10Coin.png",	
                         "item_count": 1,

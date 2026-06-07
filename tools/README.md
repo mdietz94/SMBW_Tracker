@@ -8,7 +8,7 @@ Do not hand-edit the generated outputs; re-run the generator instead.
 
 | File | Contents |
 |---|---|
-| `scripts/logic/smbw_generated_logic.lua` | One Lua function per apworld region implementing AP reachability (`full(R) = R.requires AND OR(full(parents))`), one rule per AP location id, and the `smbw_loc(id)` / `smbw_royal(n)` helpers. |
+| `scripts/logic/smbw_generated_logic.lua` | One Lua function per apworld region implementing AP reachability (`full(R) = R.requires AND OR(full(parents))`), one rule per AP location id, and the `smbw_loc(id)` / `smbw_royal(n)` helpers. Covers **both standard and open-world** modes, switched at runtime off `SLOT_DATA` (open_world / open_world_active / palaces_required). |
 | `items/logic_item.json` | Hidden toggle items for the button / Wonder-Effect / Wonder-Flower / lowercase power-up codes the logic reads. These were already mapped in `scripts/autotracking/item_mapping.lua` but had no item object, so `ProviderCountForCode` returned 0 forever. |
 | `locations/*.json` | Each section gains `"access_rules": ["$smbw_loc|<apid>"]`. |
 | `scripts/init.lua`, `scripts/items_import.lua` | `require` / `AddItems` lines for the two new files. |

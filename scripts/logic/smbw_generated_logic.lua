@@ -6,6 +6,31 @@ local GEN = 0
 local RCACHE = {}
 ScriptHost:AddWatchForCode("smbw_logic_invalidate", "*", function() GEN = GEN + 1 end)
 
+-- Open-world mode: SLOT_DATA (set by autotracking/archipelago.lua) carries
+-- open_world (0/1), open_world_active (list of active world numbers) and
+-- palaces_required.  When off / unset, the standard linear-spine logic runs.
+local function SMBW_OPEN()
+    return SLOT_DATA ~= nil and (SLOT_DATA.open_world == 1 or SLOT_DATA.open_world == true)
+end
+local function smbw_world_active(n)
+    if not (SLOT_DATA and SLOT_DATA.open_world_active) then return false end
+    for _, w in ipairs(SLOT_DATA.open_world_active) do
+        if w == n then return true end
+    end
+    return false
+end
+-- Bowser gate in open-world: enough active-world Royal Seeds (palaces) cleared.
+function smbw_open_palaces()
+    local active = (SLOT_DATA and SLOT_DATA.open_world_active) or {}
+    local need = (SLOT_DATA and SLOT_DATA.palaces_required) or #active
+    local have = 0
+    for _, n in ipairs(active) do
+        if Tracker:ProviderCountForCode("w" .. n .. "royalseed") > 0 then have = have + 1 end
+    end
+    if have >= tonumber(need) then return ACCESS_NORMAL end
+    return ACCESS_NONE
+end
+
 -- |@Royal Seed:n| category gate -- sum of the six world Royal Seeds.
 function smbw_royal(n)
     local c = Tracker:ProviderCountForCode("w1royalseed")
@@ -19,7 +44,14 @@ function smbw_royal(n)
 end
 
 -- Region reachability (topologically ordered: parents before children).
-local function R_W1_Start() return ACCESS_NORMAL end
+local function R_W1_Start()
+    local hit = RCACHE["R_W1_Start"]
+    if hit and hit.gen == GEN then return hit.v end
+    local v
+    if SMBW_OPEN() then v = ALL(smbw_world_active(1)) else v = ACCESS_NORMAL end
+    RCACHE["R_W1_Start"] = {gen = GEN, v = v}
+    return v
+end
 local function R_W1_3_Seeds()
     local hit = RCACHE["R_W1_3_Seeds"]
     if hit and hit.gen == GEN then return hit.v end
@@ -58,35 +90,40 @@ end
 local function R_PI_Pre_W2()
     local hit = RCACHE["R_PI_Pre_W2"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = R_W1_14_Seeds()
+    local v
+    if SMBW_OPEN() then v = ACCESS_NONE else v = R_W1_14_Seeds() end
     RCACHE["R_PI_Pre_W2"] = {gen = GEN, v = v}
     return v
 end
 local function R_PI_Pre_W2_2_Seeds()
     local hit = RCACHE["R_PI_Pre_W2_2_Seeds"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(HAS("petalisleswonderseed", 2, 2), R_PI_Pre_W2())
+    local v
+    if SMBW_OPEN() then v = ACCESS_NONE else v = ALL(HAS("petalisleswonderseed", 2, 2), R_PI_Pre_W2()) end
     RCACHE["R_PI_Pre_W2_2_Seeds"] = {gen = GEN, v = v}
     return v
 end
 local function R_PI_5_Seeds()
     local hit = RCACHE["R_PI_5_Seeds"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(HAS("petalisleswonderseed", 5, 5), R_PI_Pre_W2_2_Seeds())
+    local v
+    if SMBW_OPEN() then v = ACCESS_NONE else v = ALL(HAS("petalisleswonderseed", 5, 5), R_PI_Pre_W2_2_Seeds()) end
     RCACHE["R_PI_5_Seeds"] = {gen = GEN, v = v}
     return v
 end
 local function R_PI_8_Seeds()
     local hit = RCACHE["R_PI_8_Seeds"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(HAS("petalisleswonderseed", 8, 8), R_PI_5_Seeds())
+    local v
+    if SMBW_OPEN() then v = ACCESS_NONE else v = ALL(HAS("petalisleswonderseed", 8, 8), R_PI_5_Seeds()) end
     RCACHE["R_PI_8_Seeds"] = {gen = GEN, v = v}
     return v
 end
 local function R_W2_Start()
     local hit = RCACHE["R_W2_Start"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(HAS("petalisleswonderseed", 5, 5), R_PI_Pre_W2_2_Seeds())
+    local v
+    if SMBW_OPEN() then v = ALL(smbw_world_active(2)) else v = ALL(HAS("petalisleswonderseed", 5, 5), R_PI_Pre_W2_2_Seeds()) end
     RCACHE["R_W2_Start"] = {gen = GEN, v = v}
     return v
 end
@@ -121,14 +158,16 @@ end
 local function R_PI_Pre_W3()
     local hit = RCACHE["R_PI_Pre_W3"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = R_W2_14_Seeds()
+    local v
+    if SMBW_OPEN() then v = ACCESS_NONE else v = R_W2_14_Seeds() end
     RCACHE["R_PI_Pre_W3"] = {gen = GEN, v = v}
     return v
 end
 local function R_W3_Start()
     local hit = RCACHE["R_W3_Start"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(HAS("petalisleswonderseed", 8, 8), R_PI_Pre_W3())
+    local v
+    if SMBW_OPEN() then v = ALL(smbw_world_active(3)) else v = ALL(HAS("petalisleswonderseed", 8, 8), R_PI_Pre_W3()) end
     RCACHE["R_W3_Start"] = {gen = GEN, v = v}
     return v
 end
@@ -149,14 +188,16 @@ end
 local function R_PI_Pre_W4()
     local hit = RCACHE["R_PI_Pre_W4"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = R_W3_10_Seeds()
+    local v
+    if SMBW_OPEN() then v = ACCESS_NONE else v = R_W3_10_Seeds() end
     RCACHE["R_PI_Pre_W4"] = {gen = GEN, v = v}
     return v
 end
 local function R_W4_Start()
     local hit = RCACHE["R_W4_Start"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(HAS("petalisleswonderseed", 10, 10), R_PI_Pre_W4())
+    local v
+    if SMBW_OPEN() then v = ALL(smbw_world_active(4)) else v = ALL(HAS("petalisleswonderseed", 10, 10), R_PI_Pre_W4()) end
     RCACHE["R_W4_Start"] = {gen = GEN, v = v}
     return v
 end
@@ -177,14 +218,16 @@ end
 local function R_PI_Post_Airship()
     local hit = RCACHE["R_PI_Post_Airship"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = R_PI_Pre_W4()
+    local v
+    if SMBW_OPEN() then v = ACCESS_NONE else v = R_PI_Pre_W4() end
     RCACHE["R_PI_Post_Airship"] = {gen = GEN, v = v}
     return v
 end
 local function R_W5_Start()
     local hit = RCACHE["R_W5_Start"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(HAS("petalisleswonderseed", 12, 12), R_PI_Post_Airship())
+    local v
+    if SMBW_OPEN() then v = ALL(smbw_world_active(5)) else v = ALL(HAS("petalisleswonderseed", 12, 12), R_PI_Post_Airship()) end
     RCACHE["R_W5_Start"] = {gen = GEN, v = v}
     return v
 end
@@ -219,7 +262,8 @@ end
 local function R_W6_Start()
     local hit = RCACHE["R_W6_Start"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(HAS("petalisleswonderseed", 15, 15), R_PI_Post_Airship())
+    local v
+    if SMBW_OPEN() then v = ALL(smbw_world_active(6)) else v = ALL(HAS("petalisleswonderseed", 15, 15), R_PI_Post_Airship()) end
     RCACHE["R_W6_Start"] = {gen = GEN, v = v}
     return v
 end
@@ -240,28 +284,32 @@ end
 local function R_World_Bowser()
     local hit = RCACHE["R_World_Bowser"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(smbw_royal(6), R_W6_Start())
+    local v
+    if SMBW_OPEN() then v = smbw_open_palaces() else v = ALL(smbw_royal(6), R_W6_Start()) end
     RCACHE["R_World_Bowser"] = {gen = GEN, v = v}
     return v
 end
 local function R_Pre_W4_Special()
     local hit = RCACHE["R_Pre_W4_Special"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(ALL(HAS("specialworldwonderseed", 6, 6), ANY(HAS("elephantfruit"), HAS("petalisleswonderseed", 10, 10), ALL(HAS("w5wonderseed", 11, 11), HAS("petalisleswonderseed", 12, 12)))), R_PI_Pre_W4())
+    local v
+    if SMBW_OPEN() then v = ACCESS_NONE else v = ALL(ALL(HAS("specialworldwonderseed", 6, 6), ANY(HAS("elephantfruit"), HAS("petalisleswonderseed", 10, 10), ALL(HAS("w5wonderseed", 11, 11), HAS("petalisleswonderseed", 12, 12)))), R_PI_Pre_W4()) end
     RCACHE["R_Pre_W4_Special"] = {gen = GEN, v = v}
     return v
 end
 local function R_Special_End()
     local hit = RCACHE["R_Special_End"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(ALL(HAS("elephantfruit"), HAS("w5wonderseed", 11, 11), HAS("specialworldwonderseed", 16, 16)), R_W6_Post_Spring())
+    local v
+    if SMBW_OPEN() then v = ACCESS_NONE else v = ALL(ALL(HAS("elephantfruit"), HAS("w5wonderseed", 11, 11), HAS("specialworldwonderseed", 16, 16)), R_W6_Post_Spring()) end
     RCACHE["R_Special_End"] = {gen = GEN, v = v}
     return v
 end
 local function R_Post_Badge()
     local hit = RCACHE["R_Post_Badge"]
     if hit and hit.gen == GEN then return hit.v end
-    local v = ALL(ALL(HAS("w1wonderseed", 14, 14), HAS("w2wonderseed", 14, 14), HAS("w3wonderseed", 10, 10), HAS("w4wonderseed", 15, 15), HAS("w5wonderseed", 11, 11), HAS("w6wonderseed", 25, 25), HAS("petalisleswonderseed", 15, 15), HAS("specialworldwonderseed", 16, 16), smbw_royal(6)), R_Special_End())
+    local v
+    if SMBW_OPEN() then v = ACCESS_NONE else v = ALL(ALL(HAS("w1wonderseed", 14, 14), HAS("w2wonderseed", 14, 14), HAS("w3wonderseed", 10, 10), HAS("w4wonderseed", 15, 15), HAS("w5wonderseed", 11, 11), HAS("w6wonderseed", 25, 25), HAS("petalisleswonderseed", 15, 15), HAS("specialworldwonderseed", 16, 16), smbw_royal(6)), R_Special_End()) end
     RCACHE["R_Post_Badge"] = {gen = GEN, v = v}
     return v
 end
@@ -876,35 +924,35 @@ LOC["14887805104"] = function() return R_W6_Post_Spring() end
 LOC["14887805105"] = function() return R_W6_Post_Spring() end
 LOC["14887805106"] = function() return R_W6_Post_Spring() end
 LOC["14887805107"] = function() return R_W6_Post_Spring() end
-LOC["14887805108"] = function() return R_World_Bowser() end
-LOC["14887805109"] = function() return R_World_Bowser() end
-LOC["14887805110"] = function() return R_World_Bowser() end
-LOC["14887805111"] = function() return R_World_Bowser() end
-LOC["14887805112"] = function() return R_World_Bowser() end
-LOC["14887805113"] = function() return R_World_Bowser() end
-LOC["14887805114"] = function() return R_World_Bowser() end
-LOC["14887805115"] = function() return R_World_Bowser() end
-LOC["14887805116"] = function() return R_World_Bowser() end
-LOC["14887805117"] = function() return R_World_Bowser() end
-LOC["14887805118"] = function() return R_World_Bowser() end
-LOC["14887805119"] = function() return R_World_Bowser() end
-LOC["14887805120"] = function() return R_World_Bowser() end
-LOC["14887805121"] = function() return R_World_Bowser() end
-LOC["14887805122"] = function() return R_World_Bowser() end
-LOC["14887805123"] = function() return R_World_Bowser() end
-LOC["14887805124"] = function() return R_World_Bowser() end
-LOC["14887805125"] = function() return R_World_Bowser() end
-LOC["14887805126"] = function() return R_World_Bowser() end
-LOC["14887805127"] = function() return R_World_Bowser() end
-LOC["14887805128"] = function() return R_World_Bowser() end
-LOC["14887805129"] = function() return R_World_Bowser() end
-LOC["14887805130"] = function() return R_World_Bowser() end
-LOC["14887805131"] = function() return R_World_Bowser() end
+LOC["14887805108"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805109"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805110"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805111"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805112"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805113"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805114"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805115"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805116"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805117"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805118"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805119"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805120"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805121"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805122"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805123"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805124"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805125"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805126"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805127"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805128"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805129"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805130"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805131"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
 LOC["14887805132"] = function() return R_World_Bowser() end
-LOC["14887805133"] = function() return R_World_Bowser() end
-LOC["14887805134"] = function() return R_World_Bowser() end
-LOC["14887805135"] = function() return R_World_Bowser() end
-LOC["14887805136"] = function() return R_World_Bowser() end
+LOC["14887805133"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805134"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805135"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
+LOC["14887805136"] = function() if SMBW_OPEN() then return ACCESS_NONE end return R_World_Bowser() end
 LOC["14887805137"] = function() return R_Pre_W4_Special() end
 LOC["14887805138"] = function() return R_Pre_W4_Special() end
 LOC["14887805139"] = function() return R_Pre_W4_Special() end

@@ -1,0 +1,20 @@
+{
+    "badges": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "3",
+                "rows": [
+                    ["parachutecapbadge","floatinghighjumpbadge","fastdashbadge","coinrewardbadge","safetybouncebadge","coinmagnetbadge","allbubbleflowerbadge","springfeetbadge"],
+                    ["wall-climbjumpbadge","crouchinghighjumpbadge","grapplingvinebadge","autosupermushroombadge","rhythmjumpbadge","allelephantpowerbadge","alldrillpowerbadge","invisibilitybadge"],
+                    ["dolphinkickbadge","timedhighjumpbadge","boostingspinjumpbadge","add!blocksbadge","sensorbadge","allfirepowerbadge","jetrunbadge","soundoff?badge"],
+                ]
+            }
+        ]
+    }
+}
+
+

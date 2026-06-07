@@ -1,0 +1,775 @@
+[
+    {
+        "name": "W2",
+        "children":[
+            {
+                "name": "Fluff-Puff Peaks Cabin",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 510,
+                        "y": 400
+                    }
+                ]
+            },
+			{
+                "name": "Outmaway Valley",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Secret Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 385,
+                        "y": 400
+                    }
+                ]
+            },
+			{
+                "name": "Pokipede Pass",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 348,
+                        "y": 352
+                    }
+                ]
+            },
+			{
+                "name": "Wall-Climb Jump II",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 368,
+                        "y": 335
+                    }
+                ]
+            },
+			{
+                "name": "Puzzling Park",
+                "sections":[
+                    {
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 397,
+                        "y": 345
+                    }
+                ]
+            },
+			{
+                "name": "Kick It, Outmaway",
+                "sections":[
+                    {
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 356,
+                        "y": 379
+                    }
+                ]
+            },
+			{
+                "name": "Condarts Away!",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 433,
+                        "y": 355
+                    }
+                ]
+            },
+			{
+                "name": "Pole Block Passage",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 615,
+                        "y": 325
+                    }
+                ]
+            },
+			{
+                "name": "Jump! Jump Jump!",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Fake Exit",
+						"chest_unopened_img": "images/various/fakegray.png",
+						"chest_opened_img": "images/various/fake.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 665,
+                        "y": 306
+                    }
+                ]
+            },
+			{
+                "name": "Floating High Jump I",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 566,
+                        "y": 265
+                    }
+                ]
+            },
+			{
+                "name": "Fluff-Puff Kerfuff",
+                "sections":[
+                    {
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 596,
+                        "y": 265
+                    }
+                ]
+            },
+			{
+                "name": "Cloud Cover",
+                "sections":[
+                    {
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 585,
+                        "y": 323
+                    }
+                ]
+            },
+			{
+                "name": "Spring Feet I",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 653,
+                        "y": 250
+                    }
+                ]
+            },
+			{
+                "name": "Up n Down with Puffy Lifts",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 532,
+                        "y": 271
+                    }
+                ]
+            },
+			{
+                "name": "Fluff-Puff Peaks Flying Battleship",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 482,
+                        "y": 221
+                    }
+                ]
+            },
+			{
+                "name": "Countdown to Drop Down",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 459,
+                        "y": 163
+                    }
+                ]
+            },
+			{
+                "name": "Cruising with Linking Lifts",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 504,
+                        "y": 163
+                    }
+                ]
+            },
+			{
+                "name": "Zip-Go-Round",
+                "sections":[
+                    {
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 459,
+                        "y": 133
+                    }
+                ]
+            },
+			{
+                "name": "Poplin Shop (Top)",
+                "sections":[
+                    {
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 504,
+                        "y": 133
+                    }
+                ]
+            },
+			{
+                "name": "Poplin Shop (Bottom)",
+                "sections":[
+                    {
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 495,
+                        "y": 335
+                    }
+                ]
+            },
+			{
+                "name": "Fluff-Puff Peaks Palace",
+                "sections":[
+					{
+                        "name": "Royal Seed",
+						"chest_unopened_img": "images/seeds/royalgray.png",
+						"chest_opened_img": "images/seeds/fpproyal.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/fppseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W2",
+                        "x": 482,
+                        "y": 85
+                    }
+                ]
+            },
+        ]
+    }
+]

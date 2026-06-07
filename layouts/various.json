@@ -1,0 +1,18 @@
+{
+    "various": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "3",
+                "rows": [
+                    ["goldflag","10coin","standee"]
+                ]
+            }
+        ]
+    }
+}
+
+

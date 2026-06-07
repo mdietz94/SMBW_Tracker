@@ -1,0 +1,5 @@
+Tracker:AddLayouts("layouts/tracker.json")
+Tracker:AddLayouts("layouts/bagdes.json")
+Tracker:AddLayouts("layouts/seeds.json")
+Tracker:AddLayouts("layouts/charspower.json")
+Tracker:AddLayouts("layouts/various.json")

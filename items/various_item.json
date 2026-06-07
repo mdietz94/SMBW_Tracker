@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Gold Flagpole",
+        "type": "consumable",
+        "allow_disabled": true,
+        "max_quantity": 89,
+        "img": "images/various/flagpole.png",
+        "codes": "goldflag"
+    },
+    {
+        "name": "Purple 10 Coin",
+        "type": "consumable",
+        "allow_disabled": true,
+        "max_quantity": 306,
+        "img": "images/various/10Coin.png",
+        "codes": "10coin"
+    },
+	{
+        "name": "Standee",
+        "type": "consumable",
+        "allow_disabled": true,
+        "img": "images/various/Standee.png",
+        "codes": "standee"
+    }
+]

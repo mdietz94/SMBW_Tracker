@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Petal Isles Wonder Seed",
+        "type": "consumable",
+        "allow_disabled": true,
+        "max_quantity": 34,
+        "img": "images/seeds/piseed.png",
+        "codes": "petalisleswonderseed"
+    },    
+    {
+        "name": "Pipe-Rock Plateau Wonder Seed",
+        "type": "consumable",
+        "allow_disabled": true,
+        "max_quantity": 35,
+        "img": "images/seeds/prpseed.png",
+        "codes": "w1wonderseed"
+    },    
+	{
+        "name": "Fluff-Puff Peaks Wonder Seed",
+        "type": "consumable",
+        "allow_disabled": true,
+        "max_quantity": 30,
+        "img": "images/seeds/fppseed.png",
+        "codes": "w2wonderseed"
+    },
+	{
+        "name": "Shining Falls Wonder Seed",
+        "type": "consumable",
+        "allow_disabled": true,
+        "max_quantity": 20,
+        "img": "images/seeds/sfseed.png",
+        "codes": "w3wonderseed"
+    },
+	{
+        "name": "Sunbaked Desert Wonder Seed",
+        "type": "consumable",
+        "allow_disabled": true,
+        "max_quantity": 36,
+        "img": "images/seeds/sdseed.png",
+        "codes": "w4wonderseed"
+    },
+	{
+        "name": "Fungi Mines Wonder Seed",
+        "type": "consumable",
+        "allow_disabled": true,
+        "max_quantity": 21,
+        "img": "images/seeds/fmseed.png",
+        "codes": "w5wonderseed"
+    },
+	{
+        "name": "Deep Magma Bog Wonder Seed",
+        "type": "consumable",
+        "allow_disabled": true,
+        "max_quantity": 30,
+        "img": "images/seeds/dmbseed.png",
+        "codes": "w6wonderseed"
+    },
+		{
+        "name": "Special World Wonder Seed",
+        "type": "consumable",
+        "allow_disabled": true,
+        "max_quantity": 19,
+        "img": "images/seeds/swseed.png",
+        "codes": "specialworldwonderseed"
+    },
+	{
+        "name": "Pipe-Rock Plateau Royal Seed",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/seeds/prproyal.png",
+        "codes": "w1royalseed"
+    }, 
+	{
+        "name": "Petal Isles Plateau Royal Seed",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/seeds/piroyal.png",
+        "codes": "piroyalseed"
+    },    
+	{
+        "name": "Fluff-Puff Peaks Royal Seed",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/seeds/fpproyal.png",
+        "codes": "w2royalseed"
+    },
+	{
+        "name": "Shining Falls Royal Seed",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/seeds/sfroyal.png",
+        "codes": "w3royalseed"
+    },
+	{
+        "name": "Sunbaked Desert Royal Seed",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/seeds/sdroyal.png",
+        "codes": "w4royalseed"
+    },
+	{
+        "name": "Fungi Mines Royal Seed",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/seeds/fmroyal.png",
+        "codes": "w5royalseed"
+    },
+	{
+        "name": "Deep Magma Bog Royal Seed",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/seeds/dmbroyal.png",
+        "codes": "w6royalseed"
+    }
+]

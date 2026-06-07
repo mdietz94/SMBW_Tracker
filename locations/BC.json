@@ -1,0 +1,217 @@
+[
+    {
+        "name": "BC",
+        "children":[
+			{
+                "name": "Missile Meg Mayhem",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/piseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"BC",
+                        "x": 480,
+                        "y": 350
+                    }
+                ]
+            },
+			{
+                "name": "High-Voltage Gauntlet",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/piseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"BC",
+                        "x": 688,
+                        "y": 290
+                    }
+                ]
+            },
+			{
+                "name": "Evade the Seeker Bullet Bills!",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/piseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"BC",
+                        "x": 274,
+                        "y": 290
+                    }
+                ]
+            },
+			{
+                "name": "KnuckleFest Bowsers Blazing Beats",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/piseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"BC",
+                        "x": 480,
+                        "y": 248
+                    }
+                ]
+            },
+			{
+                "name": "Bowsers Rage Stage",
+                "sections":[
+					{
+                        "name": "Royal Seed",
+						"chest_unopened_img": "images/seeds/royalgray.png",
+						"chest_opened_img": "images/seeds/piroyal.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"BC",
+                        "x": 480,
+                        "y": 152
+                    }
+                ]
+            },
+        ]
+    }
+]

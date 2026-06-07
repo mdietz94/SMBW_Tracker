@@ -1,0 +1,493 @@
+[
+    {
+        "name": "W3",
+        "children":[
+            {
+                "name": "Master Poplins House",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 480,
+                        "y": 453
+                    }
+                ]
+            },
+			{
+                "name": "The Hoppycat Trial",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 538,
+                        "y": 381
+                    }
+                ]
+            },
+			{
+                "name": "The Anglefish Trial",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 585,
+                        "y": 338
+                    }
+                ]
+            },
+			{
+                "name": "An Empty Park",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 470,
+                        "y": 360
+                    }
+                ]
+            },
+			{
+                "name": "Unreachable Treasure",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 514,
+                        "y": 360
+                    }
+                ]
+            },
+			{
+                "name": "Watery Wonder Tokens",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 570,
+                        "y": 300
+                    }
+                ]
+            },
+			{
+                "name": "Poplin Shop",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 468,
+                        "y": 400
+                    }
+                ]
+            },
+			{
+                "name": "Crouching High Jump I",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 438,
+                        "y": 360
+                    }
+                ]
+            },
+			{
+                "name": "The Midway Trial",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 395,
+                        "y": 328
+                    }
+                ]
+            },
+			{
+                "name": "The Sharp Trial",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 425,
+                        "y": 210
+                    }
+                ]
+            },
+			{
+                "name": "The Sugarstar Trial",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 520,
+                        "y": 210
+                    }
+                ]
+            },
+			{
+                "name": "Timer-Switch Climb",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 455,
+                        "y": 225
+                    }
+                ]
+            },
+			{
+                "name": "Timer-Switch Dash",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 490,
+                        "y": 225
+                    }
+                ]
+            },
+			{
+                "name": "The Final Trial",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Fake Exit",
+						"chest_unopened_img": "images/various/fakegray.png",
+						"chest_opened_img": "images/various/fake.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sfseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 485,
+                        "y": 180
+                    }
+                ]
+            },
+			{
+                "name": "Royal Seed Mansion",
+                "sections":[
+					{
+                        "name": "Royal Seed",
+						"chest_unopened_img": "images/seeds/royalgray.png",
+						"chest_opened_img": "images/seeds/sfroyal.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Secret Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W3",
+                        "x": 472,
+                        "y": 80
+                    }
+                ]
+            },
+        ]
+    }
+]

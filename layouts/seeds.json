@@ -1,0 +1,19 @@
+{
+    "seeds": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "4",
+                "rows": [
+                    ["petalisleswonderseed","w1wonderseed","w2wonderseed","w3wonderseed","w4wonderseed","w5wonderseed","w6wonderseed","specialworldwonderseed"],
+                    ["piroyal","w1royalseed","w2royalseed","w3royalseed","w4royalseed","w5royalseed","w6royalseed"]
+                ]
+            }
+        ]
+    }
+}
+
+

@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Parachute Cap",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Parachute.png",
+        "codes": "parachutecapbadge"
+    },
+	{
+        "name": "Floating High Jump",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/FHJ.png",
+        "codes": "floatinghighjumpbadge"
+    },
+	{
+        "name": "Fast Dash",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Dash.png",
+        "codes": "fastdashbadge"
+    },
+	{
+        "name": "Coin Reward",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Reward.png",
+        "codes": "coinrewardbadge"
+    },
+	{
+        "name": "Safety Bounce",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Bounce.png",
+        "codes": "safetybouncebadge"
+    },
+	{
+        "name": "Coin Magnet",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Magnet.png",
+        "codes": "coinmagnetbadge"
+    },
+	{
+        "name": "All Bubble Power",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Bubble.png",
+        "codes": "allbubbleflowerbadge"
+    },
+	{
+        "name": "Spring Feet",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Spring.png",
+        "codes": "springfeetbadge"
+    },
+	{
+        "name": "Wall-Climb Jump",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/WCJ.png",
+        "codes": "wall-climbjumpbadge"
+    },
+	{
+        "name": "Crouching High Jump",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/CHJ.png",
+        "codes": "crouchinghighjumpbadge"
+    },
+	{
+        "name": "Grappling Vine",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Vine.png",
+        "codes": "grapplingvinebadge"
+    },
+	{
+        "name": "Auto Super Mushroom",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Mushroom.png",
+        "codes": "autosupermushroombadge"
+    },
+	{
+        "name": "Rhythm Jump",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Rhythm.png",
+        "codes": "rhythmjumpbadge"
+    },
+	{
+        "name": "All Elephant Power",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Elephant.png",
+        "codes": "allelephantpowerbadge"
+    },
+	{
+        "name": "All Drill Power",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Drill.png",
+        "codes": "alldrillpowerbadge"
+    },
+	{
+        "name": "Invisibility",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Invisibility.png",
+        "codes": "invisibilitybadge"
+    },
+	{
+        "name": "Dolphin Kick",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Dolphin.png",
+        "codes": "dolphinkickbadge"
+    },
+	{
+        "name": "Timed High Jump",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/THJ.png",
+        "codes": "timedhighjumpbadge"
+    },
+	{
+        "name": "Boosting Spin Jump",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Spin.png",
+        "codes": "boostingspinjumpbadge"
+    },
+	{
+        "name": "Add ! Blocks",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Addblocks.png",
+        "codes": "add!blocksbadge"
+    },
+	{
+        "name": "Sensor",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Sensor.png",
+        "codes": "sensorbadge"
+    },
+	{
+        "name": "All Fire Power",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Fire.png",
+        "codes": "allfirepowerbadge"
+    },
+	{
+        "name": "Jet Run",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Jet.png",
+        "codes": "jetrunbadge"
+    },
+	{
+        "name": "Sound Off?",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/badges/Sound.png",
+        "codes": "soundoff?badge"
+    }
+]

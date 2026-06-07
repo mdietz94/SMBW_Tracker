@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Green Yoshi",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/charspower/GYoshi.png",
+        "codes": "greenyoshi"
+    },
+    {
+        "name": "Red Yoshi",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/charspower/RYoshi.png",
+        "codes": "redyoshi"
+    },
+	{
+        "name": "Yellow Yoshi",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/charspower/YYoshi.png",
+        "codes": "yellowyoshi"
+    },
+	{
+        "name": "Light-Blue Yoshi",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/charspower/LBYoshi.png",
+        "codes": "light-blueyoshi"
+    },
+	{
+        "name": "Nabbit",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/charspower/Nabbit.png",
+        "codes": "Nabbit"
+    },
+	{
+        "name": "Super Mushroom",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/charspower/SuperMushroom.png",
+        "codes": "SuperMushroom"
+    },
+	{
+        "name": "Fire Flower",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/charspower/FireFlower.png",
+        "codes": "fireflower"
+    },
+	{
+        "name": "Super Star",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/charspower/Star.png",
+        "codes": "Star"
+    },
+	{
+        "name": "Elepfant Fruit",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/charspower/ElephantFruit.png",
+        "codes": "elephantfruit"
+    },
+	{
+        "name": "Bubble Flower",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/charspower/BubbleFlower.png",
+        "codes": "BubbleFlower"
+    },
+	{
+        "name": "Drill Mushroom",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/charspower/DrillMushroom.png",
+        "codes": "DrillMushroom"
+    }
+]

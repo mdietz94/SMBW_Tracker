@@ -1,0 +1,841 @@
+[
+    {
+        "name": "W4",
+        "children":[
+            {
+                "name": "Sunbaked Desert House",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 160,
+                        "y": 320
+                    }
+                ]
+            },
+			{
+                "name": "Armads on the Roll",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 560,
+                        "y": 430
+                    }
+                ]
+            },
+			{
+                "name": "The Desert Mystery",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 750,
+                        "y": 410
+                    }
+                ]
+            },
+			{
+                "name": "Rolling-Ball Hall",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 650,
+                        "y": 265
+                    }
+                ]
+            },
+			{
+                "name": "Ninji Jump Party",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 394,
+                        "y": 280
+                    }
+                ]
+            },
+			{
+                "name": "Bloomps of the Desert Skies",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 280,
+                        "y": 180
+                    }
+                ]
+            },
+			{
+                "name": "Valley Fulla Snootles",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 321,
+                        "y": 135
+                    }
+                ]
+            },
+			{
+                "name": "Color-Switch Dungeon",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 715,
+                        "y": 290
+                    }
+                ]
+            },
+			{
+                "name": "Secrets of Shova Mansion",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					 {
+                        "name": "Secret Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 745,
+                        "y": 140
+                    }
+                ]
+            },
+			{
+                "name": "Flight of the Bloomps",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 723,
+                        "y": 90
+                    }
+                ]
+            },
+			{
+                "name": "Parachute Cap II",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 603,
+                        "y": 340
+                    }
+                ]
+            },
+			{
+                "name": "Crouching High Jump II",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 439,
+                        "y": 187
+                    }
+                ]
+            },
+			{
+                "name": "Invisibility I",
+                "sections":[
+                    {
+                        "name": "Normal Exit",
+						"chest_unopened_img": "images/various/Poplingray.png",
+						"chest_opened_img": "images/various/Poplin.png",
+						"item_count": 1,
+                    },
+					{
+                        "name": "Top of Flag",
+						"chest_unopened_img": "images/various/flagpolegray.png",
+						"chest_opened_img": "images/various/flagpole.png",						
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 676,
+                        "y": 84
+                    }
+                ]
+            },
+			{
+                "name": "Sunbaked Skirmish",
+                "sections":[
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 629,
+                        "y": 205
+                    }
+                ]
+            },
+			{
+                "name": "Pipe Park",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 254,
+                        "y": 260
+                    }
+                ]
+            },
+			{
+                "name": "Treasure Vault",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 675,
+                        "y": 460
+                    }
+                ]
+            },
+			{
+                "name": "Raise the Stage",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 752,
+                        "y": 220
+                    }
+                ]
+            },
+			{
+                "name": "Revver Run",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 610,
+                        "y": 265
+                    }
+                ]
+            },
+			{
+                "name": "Floating Wonder Tokens",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 360,
+                        "y": 165
+                    }
+                ]
+            },
+			{
+                "name": "Bouncy Tunes",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 506,
+                        "y": 204
+                    }
+                ]
+            },
+			{
+                "name": "Lights Out",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 750,
+                        "y": 265
+                    }
+                ]
+            },
+			{
+                "name": "Poplin Shop (Bottom)",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 440,
+                        "y": 354
+                    }
+                ]
+            },
+			{
+                "name": "Poplin Shop (Secret)",
+                "sections":[
+                   	{
+                        "name": "Wonder Seed (30 Coins)",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed (100 Coins)",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed (200 Coins)",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 450,
+                        "y": 115
+                    }
+                ]
+            },
+			{
+                "name": "Sunbaked Desert Palace",
+                "sections":[
+					{
+                        "name": "Royal Seed",
+						"chest_unopened_img": "images/seeds/royalgray.png",
+						"chest_opened_img": "images/seeds/sdroyal.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Wonder Seed",
+						"chest_unopened_img": "images/seeds/seedgray.png",
+						"chest_opened_img": "images/seeds/sdseed.png",
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #1",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",			
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #2",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    },
+					{
+                        "name": "10 Coin #3",
+						"chest_unopened_img": "images/various/10Coingray.png",
+						"chest_opened_img": "images/various/10Coin.png",	
+                        "item_count": 1,
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map":"W4",
+                        "x": 570,
+                        "y": 150
+                    }
+                ]
+            },
+        ]
+    }
+]

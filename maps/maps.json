@@ -1,0 +1,57 @@
+[
+    {
+      "name": "PI",
+      "location_size": 10,
+      "location_border_thickness": 3,
+      "img": "images/maps/pi.png"
+    },
+    {
+      "name": "W1",
+      "location_size": 10,
+      "location_border_thickness": 3,
+      "img": "images/maps/prp.png"
+    },
+    {
+      "name": "W2",
+      "location_size": 10,
+      "location_border_thickness": 3,
+      "img": "images/maps/fpp.png"
+    },
+    {
+      "name": "W3",
+      "location_size": 10,
+      "location_border_thickness": 3,
+      "img": "images/maps/sf.png"
+    },
+    {
+      "name": "W4",
+      "location_size": 10,
+      "location_border_thickness": 3,
+      "img": "images/maps/sd.png"
+    },
+    {
+      "name": "W5",
+      "location_size": 10,
+      "location_border_thickness": 3,
+      "img": "images/maps/fm.png"
+    },
+    {
+      "name": "W6",
+      "location_size": 10,
+      "location_border_thickness": 3,
+      "img": "images/maps/dmb.png"
+    },
+    {
+      "name": "BC",
+      "location_size": 10,
+      "location_border_thickness": 3,
+      "img": "images/maps/bc.png"
+    },
+    {
+      "name": "Special",
+      "location_size": 10,
+      "location_border_thickness": 3,
+      "img": "images/maps/special.png"
+    }
+]
+

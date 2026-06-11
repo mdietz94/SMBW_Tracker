@@ -1,9 +1,9 @@
 {
     "name": "Super Mario Bros Wonder Archipelago",
     "game_name": "Super Mario Bros Wonder",
-    "package_version": "1.0.0",
+    "package_version": "2.0.0",
     "package_uid": "super mario bros wonder_ap",
-    "author": "LuckwurstJoe",
+    "author": "LuckwurstJoe and deeets",
     "variants": {
         "Map Tracker": {
             "display_name": "Map Tracker",

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Bubbleflower (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "bubbleflower"
+    },
+    {
+        "name": "Drillmushroom (logic)",
+        "type": "toggle",
+        "allow_disabled": true,
+        "img": "images/various/fake.png",
+        "codes": "drillmushroom"
+    }
+]
